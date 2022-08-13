@@ -13,6 +13,12 @@ module.exports = {
             }
         ]
     },
+    devServer: {
+        static: {
+            directory: `${__dirname}/dist`,
+        },
+        port: 3000,
+    },
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".json"]
     },

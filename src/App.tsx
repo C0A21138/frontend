@@ -3,7 +3,7 @@ import * as React from "react";
 const App: React.VFC = () =>{
     return(
         <div>
-            <h1>APP</h1>
+            <h1>HelloWorld</h1>
         </div>
     )
 };
